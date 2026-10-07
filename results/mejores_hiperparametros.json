@@ -1,0 +1,33 @@
+{
+  "Random Forest": {
+    "n_estimators": 600,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "max_depth": 30
+  },
+  "XGBoost": {
+    "colsample_bytree": 0.718509402281633,
+    "learning_rate": 0.016406549192101497,
+    "max_depth": 2,
+    "min_child_weight": 5,
+    "n_estimators": 720,
+    "reg_lambda": 3.5033984911586877,
+    "subsample": 0.679486272613669
+  },
+  "XGBoost monótono": {
+    "colsample_bytree": 0.7888859700647797,
+    "learning_rate": 0.014308552498147852,
+    "max_depth": 7,
+    "min_child_weight": 5,
+    "n_estimators": 968,
+    "reg_lambda": 2.776253009443833,
+    "subsample": 0.6943939678995823
+  },
+  "Red neuronal": {
+    "alpha": 0.08568869785189001,
+    "hidden_layer_sizes": [
+      32
+    ],
+    "learning_rate_init": 0.0001238513729886094
+  }
+}
