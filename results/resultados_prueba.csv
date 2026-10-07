@@ -1,0 +1,6 @@
+﻿modelo,RMSE,mejora vs base (%),% violaciones en distancia,% violaciones en magnitud,¿mejora robusta?,mejora RMSE,coherente físicamente,CUMPLE el criterio
+Línea base (GMPE),0.8655,0.0,0.0,0.0,—,—,Sí,—
+Random Forest,0.8214,5.087,15.3539,13.75,No,Sí,No,no
+XGBoost,0.8134,6.0197,0.0,16.25,No,Sí,No,no
+XGBoost monótono,0.8178,5.5025,0.0,0.0,No,Sí,Sí,SÍ
+Red neuronal,0.8131,6.0464,0.0,12.3958,No,Sí,No,no
